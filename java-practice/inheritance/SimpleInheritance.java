@@ -18,8 +18,8 @@ class Parent{
 }
 public class SimpleInheritance extends Parent{
     public static void main(String[] args) {
-        Inheritance A = new Inheritance();    // Created object A of class Demo
-        Inheritance B = new Inheritance();    // Created object B of class Demo
+        SimpleInheritance A = new SimpleInheritance();    // Created object A of class SimpleInheritance
+        SimpleInheritance B = new SimpleInheritance();    // Created object B of class SimpleInheritance
         System.out.println("For Person A");
         A.getData();
         System.out.println("For Person B");
