@@ -1,0 +1,22 @@
+# Java Practice
+
+This directory contains my Java practice programs while learning Core Java. The code is organized topic-wise to strengthen my understanding of Java fundamentals, object-oriented programming, problem-solving, and programming best practices.
+
+## Topics Covered
+- Variables & Data Types
+- Operators
+- Control Statements
+- Methods
+- Arrays
+- Strings
+- Object-Oriented Programming (OOP)
+- Inheritance
+- Polymorphism
+- Abstraction
+- Interfaces
+- Exception Handling
+- Collections
+- File Handling
+- JDBC (Later)
+
+This directory is updated regularly as I continue learning and practicing Java.
