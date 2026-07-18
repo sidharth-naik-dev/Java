@@ -5,28 +5,35 @@ import java.util.Scanner;
 class Parent{
     String name;
     int age;
+    
     public void getData(){
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter your name:");
         name = sc.next();
         System.out.print("Enter your age:");
         age = sc.nextInt();
+        sc.close();
     }
-    public void Display(){
+}
+
+class Child extends Parent{
+    public void display(){
         System.out.println("Your Name is: "+name+" and Age is: "+age);
     }
 }
-public class SimpleInheritance extends Parent{
+
+public class SimpleInheritance{
     public static void main(String[] args) {
-        SimpleInheritance A = new SimpleInheritance();    // Created object A of class SimpleInheritance
-        SimpleInheritance B = new SimpleInheritance();    // Created object B of class SimpleInheritance
+        Child A = new Child();    // Created object A of class Child
+        Child B = new Child();    // Created object B of class Child
         System.out.println("For Person A");
         A.getData();
         System.out.println("For Person B");
         B.getData();
         System.out.println("Data of Person A");
-        A.Display();
+        A.display();
         System.out.println("Data of Person B");
-        B.Display();
+        B.display();
     }
 }
+
