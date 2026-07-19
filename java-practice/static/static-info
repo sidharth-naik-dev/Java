@@ -1,0 +1,11 @@
+The StaticFullDemo includes all the static keyword usage demonstration in the code.
+It needs not to be separated, this is not for a beginer to understand but a bit experienced programmer who has forgotten the use of static can look through the file and understand the full usage easily.
+static has three main usage:
+static variable known as class variables:
+  are belong to class only, no object can access the static variable directly unless uses the class name and dot operator
+  Ex.- ClassName.static_var
+  its scope is bounded by the access specifiers.
+static methods known as class methods:
+  are belong to class only again, same process to use this.
+  the thing is that it can use only static variables directly and to use instance variables/methods it needs to have an object of that class unless it is not allowed for a static method to access an instance variable/method directly.
+  the reason behind it is simple, as class takes its space in the memory, memory for all the static variables and methods gets filled. And that is when there is no obect is made at that moment, thats why it is totally illegal to use any instance things for the static method.
