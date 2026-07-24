@@ -3,7 +3,6 @@ package strings;
 import java.lang.String;
 
 public class StringLearn2 {
-
     static void main() {
         String name = "Java Programming Language";
         System.out.println(name);
@@ -22,6 +21,5 @@ public class StringLearn2 {
         System.out.println("18. " + s1.isEmpty());
         System.out.println("19. " + "Hi ".repeat(5));
         System.out.println("20. " + "Apple".compareTo("Banana"));
-
     }
 }
